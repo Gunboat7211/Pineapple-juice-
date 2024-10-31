@@ -1,10 +1,9 @@
-# Pineapple-juice-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Love Message</title>
+    <title>Thank You Message</title>
     <style>
         /* Basic Page Styling */
         body {
@@ -94,22 +93,22 @@
 </head>
 <body>
     <div class="container">
-        <h1 id="loveMessage"></h1>
+        <h1 id="thankYouMessage"></h1>
         <div class="heart" id="heart">❤️</div>
-        <button id="loveButton">Click for a Surprise</button>
+        <button id="thankYouButton">Click for a Surprise</button>
     </div>
 
     <!-- JavaScript for displaying message and floating hearts -->
     <script>
-        // Function to display the love message, main heart, and floating hearts
-        function displayLoveMessage() {
-            const message = "I love you PINEAPPLE 🍍 I always did and I always will.";
-            const loveMessageElement = document.getElementById("loveMessage");
+        // Function to display the thank you message, main heart, and floating hearts
+        function displayThankYouMessage() {
+            const message = "Thank you Aunty Boma for All you do.";
+            const thankYouMessageElement = document.getElementById("thankYouMessage");
             const heartElement = document.getElementById("heart");
 
             // Set the text and display the elements
-            loveMessageElement.textContent = message;
-            loveMessageElement.style.display = "block";
+            thankYouMessageElement.textContent = message;
+            thankYouMessageElement.style.display = "block";
             heartElement.style.display = "block";
 
             // Create floating hearts
@@ -133,7 +132,7 @@
 
         // Attach event listener after content loads
         document.addEventListener("DOMContentLoaded", function() {
-            document.getElementById("loveButton").addEventListener("click", displayLoveMessage);
+            document.getElementById("thankYouButton").addEventListener("click", displayThankYouMessage);
         });
     </script>
 </body>
